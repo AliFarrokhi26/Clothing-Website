@@ -42,3 +42,25 @@
     top: 60%;
     transform: translate(-60%, -55%);
 }
+
+
+
+
+/* newsletter */
+.Newsletter{
+    max-width: 500px;
+}
+.Newsletter p{
+    max-width: 500px;
+}
+.Newsletter .input-group{
+    max-width: 500px;
+}
+.Newsletter .form-control{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.Newsletter .btn{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
