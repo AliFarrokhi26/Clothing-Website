@@ -17,6 +17,7 @@
 </head>
 
 <body>
+
   <div class="d-block d-sm-none bg-danger text-white fw-bold text-center sticky-top">xs</div>
   <div class="d-none d-sm-block d-md-none bg-danger text-white fw-bold text-center sticky-top">sm</div>
   <div class="d-none d-md-block d-lg-none bg-danger text-white fw-bold text-center sticky-top">md</div>
@@ -27,7 +28,7 @@
   <!-- ------------------------------- -->
   <nav class="navbar navbar-expand-md  navbar-light bg-light border-bottom ">
     <div class="container-fluid ">
-      <div><a class="navbar-brand  " href="#"><img src="/images/bag.png" width="50px">Stylish</a></div>
+      <div><a class="navbar-brand" href="#"><img src="/images/bag.png" width="50px">Stylish</a></div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -40,7 +41,10 @@
             <a class="nav-link text-primary" href="#">collection</a>
           </li>
           <li class="nav-item">
+
             <a class="nav-link text-primary" href="#">specials</a>
+
+
           </li>
           <li class="nav-item">
             <a class="nav-link text-primary" href="#">popular</a>
@@ -51,15 +55,24 @@
 
         </ul>
       </div>
+      <button type="button" class="btn btn-primary position-relative ">
+        Profile
+        <span
+          class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+          <span class="visually-hidden">New alerts</span>
+        </span>
+      </button>
       <div class=" text-end justify-content-start ">
+
+        <button type="button" class="btn btn-primary  border border-info">Sign-up<span
+            class="position-absolute badge bg-danger  ">4</span></button>
         <a href="login.html" type="button" class="btn btn-outline-primary me-2 ">Login</a>
-        <button type="button" class="btn btn-primary">Sign-up</button>
       </div>
     </div>
   </nav>
   <!-- --------------------------------------------------------------------------- -->
-  <div class="container-fluid border col-sm-12 col-md-12 col-lg-12 col-xl-12 border-info">
-    <div id="carouselExample" class="carousel slide col border border-danger fullScreen">
+  <div class="container-fluid border col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
+    <div id="carouselExample" class="carousel slide col  fullScreen">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
           aria-current="true" aria-label="Slide 1"></button>
@@ -101,16 +114,23 @@
 
   <!-- --------------------------------------------------------------------------- -->
   <div class="container-fluid  d-flex flex-wrap justify-content-center gap-3 my-5  col-sm-3 col-md-6 col-lg-6 col-xl-6">
-    <button class="btn btn-outline-primary btn-lg custom-button">All</button>
-    <button class="btn btn-outline-primary btn-lg custom-button">Top Sellers</button>
-    <button class="btn btn-outline-primary btn-lg custom-button">special</button>
-    <button class="btn btn-outline-primary btn-lg custom-button">New Arrival</button>
+    <button class="btn btn-outline-primary btn-lg custom-button custom-btn-width active">All</button>
+    <button class="btn btn-outline-primary btn-lg custom-button custom-btn-width">Top Sellers</button>
+    <button class="btn btn-outline-primary btn-lg custom-button custom-btn-width">special</button>
+    <button class="btn btn-outline-primary btn-lg custom-button custom-btn-width">New Arrival</button>
   </div>
+
+
+
   <!-- --------------------------------------------------------------------------- -->
   <div class=" d-flex flex-wrap justify-content-center gap-4 col-sm-6 offset-sm-3 offset-md-1 col-md-10">
     <!-- card#1 -->
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="https://source.unsplash.com/cOBuc8-d2hg" alt="Card image cap">
+    <div class="card " style="width: 18rem;">
+      <div class="collection-img position-relative ">
+        <span class="position-absolute badge bg-danger text-white left-0 right-0  p-3 rounded-circle">Special
+          offer</span>
+        <img class="card-img-top img-size" src="images/on_sale_2.jpg" alt="Card image cap">
+      </div>
       <div class="card-body text-center">
         <div class="rating mt-3">
           <span class="text-danger"><i class="fas fa-star"></i></span>
@@ -120,13 +140,14 @@
           <span class="text-danger"><i class="fas fa-star"></i></span>
         </div>
         <h5 class="card-title">Gray Shirt</h5>
+        <p class="card-text discounted-price">$ 45.50</p>
         <p class="card-text">$ 45.50</p>
         <button class="btn btn-primary custom-button">Add To Cart</button>
       </div>
     </div>
     <!-- card#2 -->
     <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="https://source.unsplash.com/cOBuc8-d2hg" alt="Card image cap">
+      <img class="card-img-top img-size " src="images/c_t-shirt_men.png" alt="Card image cap">
       <div class="card-body text-center">
         <div class="rating mt-3">
           <span class="text-danger"><i class="fas fa-star"></i></span>
@@ -142,7 +163,7 @@
     </div>
     <!-- card#3 -->
     <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="https://source.unsplash.com/cOBuc8-d2hg" alt="Card image cap">
+      <img class="card-img-top img-size" src="images/best_selling_3.jpg" alt="Card image cap">
       <div class="card-body text-center">
         <div class="rating mt-3">
           <span class="text-danger"><i class="fas fa-star"></i></span>
@@ -158,7 +179,7 @@
     </div>
     <!-- card#4 -->
     <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="https://source.unsplash.com/cOBuc8-d2hg" alt="Card image cap">
+      <img class="card-img-top img-size" src="images/c_undershirt.png" alt="Card image cap">
       <div class="card-body text-center">
         <div class="rating mt-3">
           <span class="text-danger"><i class="fas fa-star"></i></span>
@@ -174,7 +195,7 @@
     </div>
     <!-- card#5 -->
     <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="https://source.unsplash.com/cOBuc8-d2hg" alt="Card image cap">
+      <img class="card-img-top img-size" src="images/c_formal_gray_shirt.png" alt="Card image cap">
       <div class="card-body text-center">
         <div class="rating mt-3">
           <span class="text-danger"><i class="fas fa-star"></i></span>
@@ -190,7 +211,7 @@
     </div>
     <!-- card#6 -->
     <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="https://source.unsplash.com/cOBuc8-d2hg" alt="Card image cap">
+      <img class="card-img-top img-size" src="images/c_pant_girl.png" alt="Card image cap">
       <div class="card-body text-center">
         <div class="rating mt-3">
           <span class="text-danger"><i class="fas fa-star"></i></span>
@@ -206,14 +227,23 @@
     </div>
   </div>
   <!-- --------------------------------------------------------------------------- -->
-  <div class="container-fluid sale-container my-5 text-white">
-    <img src="https://source.unsplash.com/eD1RNYzzUxc">
-    <div class="discount-section p-3">
-      <p class="fs-4">Discount Up To 70%</p>
-      <h1>Grand Sale Offer!</h1>
-      <button class="btn btn-primary custom-button mt-3">Buy Now</button>
+  <!-- blogs -->
+  <section id="offers" class="py-5">
+    <div class="container">
+      <div
+        class="row d-flex align-items-center justify-content-center text-center justify-content-lg-start text-lg-start">
+        <div class="offers-content">
+          <span class="text-white">Discount Up To 40%</span>
+          <h2 class="mt-2 mb-4 text-white">Grand Sale Offer!</h2>
+          <a href="#" class="btn btn-primary custom-button">Buy Now</a>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
+  <!-- end of blogs -->
+
+
+
   <!-- --------------------------------------------------------------------------- -->
   <div class="container-fluid d-flex justify-content-center my-5">
     <div class="bg-primary custom-width me-2"></div>
@@ -316,10 +346,11 @@
 
 
   <div class="container my-5 ">
-    <div class="row justify-content-sm-center">
-      <div class="col d-flex flex-row flex-sm-column justify-content-sm-center flex-md-row flex-lg-row">
-        <img src="images/about_us.jpg" class="col-6 me-5 rounded">
-        <div class="col-6 d-flex flex-column justify-content-center">
+    <div class="row">
+      <div
+        class="col d-flex flex-row flex-sm-column align-items-sm-center justify-content-sm-center flex-md-row flex-lg-row ">
+        <img src="images/about_us.jpg" class="col-6 mx-2 rounded ">
+        <div class="col-6 mx-2 d-flex flex-column justify-content-center ">
           <h2>About us</h2>
           <h6>Lorem ipsum dolor sit amet.</h6>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ex inventore dolorem quibusdam quas nam.</p>
